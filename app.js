@@ -212,14 +212,14 @@ function renderHeaderFooter(){
   const yr=document.getElementById('yr'); if(yr) yr.textContent=new Date().getFullYear();
   const burger=document.getElementById('burger'); const links=document.getElementById('links');
   if(burger&&links){
-    burger.addEventListener('click',()=>{
-      const open=links.classList.toggle('open');
+    const setMenu=(open)=>{
+      links.classList.toggle('open',open);
       burger.classList.toggle('on',open);
       burger.setAttribute('aria-expanded',open?'true':'false');
-    });
-    links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{
-      links.classList.remove('open'); burger.classList.remove('on'); burger.setAttribute('aria-expanded','false');
-    }));
+      links.style.display = open ? 'flex' : '';
+    };
+    burger.addEventListener('click',()=>{ setMenu(!links.classList.contains('open')); });
+    links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>setMenu(false)));
   }
 }
 
