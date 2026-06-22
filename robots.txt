@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://goodfellas-barbershop-nampa.vercel.app/sitemap.xml
