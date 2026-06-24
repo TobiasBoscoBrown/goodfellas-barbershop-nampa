@@ -26,7 +26,7 @@ const HOURS = [
 
 const ICONS = {
   scissors: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" y1="4" x2="8.12" y2="15.88"/><line x1="14.47" y1="14.48" x2="20" y2="20"/><line x1="8.12" y1="8.12" x2="12" y2="12"/></svg>',
-  beard: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4v5a7 7 0 0 0 14 0V4"/><path d="M5 9c0 5 3 9 7 9s7-4 7-9"/><line x1="9" y1="7" x2="9" y2="8"/><line x1="15" y1="7" x2="15" y2="8"/></svg>',
+  beard: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 5.5c2.1 1.3 4.7 2 7.5 2s5.4-.7 7.5-2"/><path d="M4.8 5.6c-.3 4.2.5 7.7 2.2 10.2C8.5 18 10.1 19.5 12 19.5s3.5-1.5 5-3.7c1.7-2.5 2.5-6 2.2-10.2"/><path d="M8.3 8.6c1.1.8 2.3 1.1 3.7 1.1s2.6-.3 3.7-1.1"/></svg>',
   razor: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3l9 9"/><path d="M14.5 14.5L21 21"/><path d="M12 12l2.5 2.5"/><path d="M3 3c4 0 8 1.5 9.5 4.5C10 9 5.5 8 3 3z"/></svg>',
   crown: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8l4 4 5-7 5 7 4-4-2 11H5L3 8z"/><line x1="5" y1="19" x2="19" y2="19"/></svg>',
   star: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 21.5 12 17.5 5.5 21.5 7 14.5 2 9.5 9 9 12 2"/></svg>',
